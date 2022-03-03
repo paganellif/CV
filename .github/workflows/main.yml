@@ -28,7 +28,7 @@ jobs:
           args: -interaction=nonstopmode -shell-escape
 
       - name: Upload pdf report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: report
           path: main.pdf
